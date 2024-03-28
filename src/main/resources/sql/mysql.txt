@@ -1,0 +1,10 @@
+
+use webdb;
+
+CREATE table member(
+	id bigint auto_increment primary key,
+	name varchar(255)
+);
+SELECT * from member;
+INSERT into member(name) values("dgdg");
+
